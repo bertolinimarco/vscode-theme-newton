@@ -1,0 +1,23 @@
+{
+    "name": "theme-newton",
+    "displayName": "Newton",
+    "description": "A new color scheme, easy on eyes.",
+    "version": "0.0.1",
+    "publisher": "bertolinimarco",
+    "engines": {
+        "vscode": "^1.11.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "newtonIcon.svg",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Newton",
+                "uiTheme": "vs-dark",
+                "path": "./themes/newton.tmTheme"
+            }
+        ]
+    }
+}
