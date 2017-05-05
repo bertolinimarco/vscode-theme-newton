@@ -4,6 +4,8 @@ So, Newton.
 
 > Warning: updates are released very frequently.
 
+![Screenshot](https://raw.githubusercontent.com/bertolinimarco/vscode-theme-newton/master/screenshot.jpg)
+
 # How
 1) Go to `Extensions`
 
