@@ -2,15 +2,16 @@
     "name": "theme-newton",
     "displayName": "Newton",
     "description": "A low eyestrain syntax theme. Apple not included.",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "publisher": "bertolinimarco",
     "engines": {
         "vscode": "^1.11.0"
     },
+    "repository": "https://github.com/bertolinimarco/vscode-theme-newton",
     "categories": [
         "Themes"
     ],
-    "icon": "newtonIcon.svg",
+    "icon": "newtonIcon.png",
     "contributes": {
         "themes": [
             {
