@@ -79,7 +79,7 @@ code {
           background: $dark;
         }
         &.bg2 {
-          background: $white;
+          background: $grey;
         }
         &.bg3 {
           background: $green;
@@ -88,13 +88,16 @@ code {
           background: $red;
         }
         &.bg5 {
-          background: $azure;
-        }
-        &.bg6 {
           background: $blue;
         }
+        &.bg6 {
+          background: $azure;
+        }
         &.bg7 {
-          background: $grey;
+          background: $yellow;
+        }
+        &.bg8 {
+          background: $white;
         }
       }
     }
