@@ -1,0 +1,110 @@
+// Colors
+$dark: #1a1a1a;
+$red: #f2777a;
+$green: #99cc99;
+$white: #d3d0c8;
+$yellow: #ebbd5b;
+$blue: #6699cc;
+$azure: #66cccc;
+$grey: #666666;
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+
+// Contents
+body {
+  background: $dark;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 16px;
+  color: $white;
+
+}
+a {
+  color: $yellow;
+}
+a:hover {
+  text-decoration: none;
+  color: $yellow;
+  opacity: 0.7;
+}
+h3 {
+  color: $azure;
+}
+code {
+  color: $white;
+  display: inline-block;
+  padding: 2px 5px;
+  background: darken($grey, 20%);
+  border-radius:5px;
+}
+.head {
+  padding: 60px 0 30px;
+  h1 {
+    color: $yellow;
+  }
+  h2 {
+    color: $grey;
+  }
+  .logo {
+    margin-bottom: 30px;
+    width: 200px;
+    height: auto;
+  }
+  .gh-buttons {
+    margin: 30px 0;
+  }
+}
+.page {
+  h4 {
+    margin: 30px 0;
+    color: $green;
+  }
+}
+.palette {
+  padding-top: 40px;
+  text-align: center;
+  width: 100%;
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    li {
+      display: inline-block;
+      .box {
+        height: 30px;
+        width: 50px;
+        border: 1px solid $grey;
+        &.bg1 {
+          background: $dark;
+        }
+        &.bg2 {
+          background: $white;
+        }
+        &.bg3 {
+          background: $green;
+        }
+        &.bg4 {
+          background: $red;
+        }
+        &.bg5 {
+          background: $azure;
+        }
+        &.bg6 {
+          background: $blue;
+        }
+        &.bg7 {
+          background: $grey;
+        }
+      }
+    }
+  }
+}
+.foot {
+  margin: 40px 0;
+  color: $grey;
+  .copy {
+    margin: 40px 0;
+    font-size:13px;
+  }
+}
