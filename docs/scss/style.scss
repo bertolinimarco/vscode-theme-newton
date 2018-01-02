@@ -12,12 +12,17 @@ $grey: #666666;
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans");
 
 // Contents
+::selection {
+  background: #333333;
+}
+::-moz-selection {
+  background: #333333;
+}
 body {
   background: $dark;
   font-family: "Fira Sans", sans-serif;
   font-size: 16px;
   color: $white;
-
 }
 a {
   color: $yellow;
@@ -35,7 +40,7 @@ code {
   display: inline-block;
   padding: 2px 5px;
   background: darken($grey, 20%);
-  border-radius:5px;
+  border-radius: 5px;
 }
 .head {
   padding: 60px 0 30px;
@@ -108,6 +113,6 @@ code {
   color: $grey;
   .copy {
     margin: 40px 0;
-    font-size:13px;
+    font-size: 13px;
   }
 }
