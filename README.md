@@ -1,12 +1,14 @@
-https://bertolinimarco.github.io/vscode-theme-newton/
+# Newton for Visual Studio code
 
-# Why
+[![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/d/bertolinimarco.theme-newton.svg)]()
+
+## Why
 Most of the standard IDE/Editors themes are not easy on my eye, or they're too distracting, semantic, etc.
 So, Newton.
 
 ![Screenshot](https://raw.githubusercontent.com/bertolinimarco/vscode-theme-newton/master/screenshot.jpg)
 
-# How
+## How
 1) Go to `Extensions`
 
 2) Search for `Newton`
