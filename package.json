@@ -7,7 +7,7 @@
     "engines": {
         "vscode": "^1.11.0"
     },
-    "repository": "https://github.com/bertolinimarco/vscode-theme-newton",
+    "repository": "https://github.com/newton-theme/vscode-theme-newton",
     "categories": [
         "Themes"
     ],
