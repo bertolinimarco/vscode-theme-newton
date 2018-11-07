@@ -6,7 +6,7 @@
 Most of the standard IDE/Editors themes are not easy on my eye, or they're too distracting, semantic, etc.
 So, Newton.
 
-![Screenshot](https://raw.githubusercontent.com/bertolinimarco/vscode-theme-newton/master/screenshot.jpg)
+![Screenshot](https://raw.githubusercontent.com/bertolinimarco/vscode-theme-newton/master/screenshot.png)
 
 ## How
 1) Go to `Extensions`
