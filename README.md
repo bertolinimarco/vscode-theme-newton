@@ -1,4 +1,6 @@
-# Newton for Visual Studio code
+# Newton for VS Code
+
+https://bertolinimarco.github.io/vscode-theme-newton/
 
 [![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/d/bertolinimarco.theme-newton.svg)]()
 
@@ -10,7 +12,6 @@ So, Newton.
 
 ## How
 1) Go to `Extensions`
-
 2) Search for `Newton`
 
 3) Install + Reload VSC
