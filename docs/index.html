@@ -1,159 +1,833 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>
+      A low-eyestrain dark theme for your favourite editor or terminal.
+    </title>
+    <meta
+      name="description"
+      content="A dark theme for Visual Studio Code - Sublime Text - Atom - Hyper.js - Terminal - iTerm - Mintty - Slack"
+    />
+    <meta name="author" content="Marco Bertolini" />
 
-<head>
-    <meta charset="UTF-8">
-    <title>A low-eyestrain dark theme for your favourite editor or terminal.</title>
-    <meta name="description" content="A dark theme for Visual Studio Code - Sublime Text - Atom - Hyper.js - Terminal - iTerm - Mintty - Slack">
-    <meta name="author" content="Marco Bertolini">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta
+      property="og:title"
+      content="A low-eyestrain dark theme for your favourite editor or terminal."
+    />
+    <meta
+      property="og:description"
+      content="A dark theme for Visual Studio Code - Sublime Text - Atom - Hyper.js - Terminal - iTerm - Mintty - Slack"
+    />
 
-    <meta property="og:title" content="A low-eyestrain dark theme for your favourite editor or terminal.">
-    <meta property="og:description" content="A dark theme for Visual Studio Code - Sublime Text - Atom - Hyper.js - Terminal - iTerm - Mintty - Slack">
-    <meta property="og:url" content="http://www.newtontheme.com/">
-    <meta property="og:image" content="https://raw.githubusercontent.com/bertolinimarco/vscode-theme-newton/master/newtonIcon.png">
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/bertolinimarco/vscode-theme-newton/master/newtonIcon.png"
+    />
 
-    <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/img/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/img/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/img/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/img/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="img/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="img/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="img/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="img/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="img/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="img/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="img/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="img/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="img/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="img/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon/favicon-16x16.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
     <script async defer src="https://buttons.github.io/buttons.js"></script>
-    <script src="https://www.w3schools.com/lib/w3.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-7715940-36"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-7715940-36"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag('config', 'UA-7715940-36');
+      gtag("config", "UA-7715940-36");
     </script>
+  </head>
 
-
-</head>
-
-<body>
+  <body>
     <div class="head text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <a href="/">
-                        <img class="logo" src="https://raw.githubusercontent.com/bertolinimarco/vscode-theme-newton/master/newtonIcon.png" alt="">
-                    </a>
-                    <h1 class="anim-typewriter">Newton</h1>
-                    <h2>A low-eyestrain theme</h2>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <a href="">
+              <img
+                class="logo"
+                src="https://raw.githubusercontent.com/bertolinimarco/vscode-theme-newton/master/newtonIcon.png"
+                alt=""
+              />
+            </a>
+            <h1 class="anim-typewriter">Newton</h1>
+            <h2>A low-eyestrain theme for your Editor</h2>
+            <small>Or Terminal/IDE/MinTTY/Bash/Slack...</small>
+          </div>
         </div>
-    </div>
-    <div class="page selection">
-        <div class="container">
-            <h3>Editors</h3>
-            <div class="row">
-                <div class="col-sm-6 col-lg-3">
-                    <a href="visual-studio-code" class="link-block">
-                        <div class="card">
-                            <img src="img/icon-vscode.png" alt="Visual Studio Code">
-                            <h3>Visual Studio Code</h3>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <a href="visual-studio" class="link-block">
-                        <div class="card">
-                            <img src="img/icon-vs.png" alt="Visual Studio">
-                            <h3>Visual Studio</h3>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <a href="sublime-text" class="link-block">
-                        <div class="card">
-                            <img src="img/icon-sublime.png" alt="Sublime Text">
-                            <h3>Sublime Text</h3>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <a href="atom" class="link-block">
-                        <div class="card">
-                            <img src="img/icon-atom.png" alt="Atom">
-                            <h3>Atom</h3>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <h3>Terminals</h3>
-            <div class="row">
-                <div class="col-sm-6 col-lg-3">
-                    <a href="hyper" class="link-block">
-                        <div class="card">
-                            <img src="img/icon-hyper.png" alt="Hyper.js">
-                            <h3>Hyper</h3>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <a href="iterm" class="link-block">
-                        <div class="card">
-                            <img src="img/icon-iterm.png" alt="iTerm">
-                            <h3>iTerm</h3>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <a href="terminal" class="link-block">
-                        <div class="card">
-                            <img src="img/icon-terminal.png" alt="Terminal.app">
-                            <h3>Terminal.app</h3>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <a href="mintty" class="link-block">
-                        <div class="card">
-                            <img src="img/icon-mintty.png" alt="MinTTY">
-                            <h3>Mintty</h3>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <h3>Apps</h3>
-            <div class="row">
-                <div class="col">
-                    <a href="slack" class="link-block">
-                        <div class="card">
-                            <img src="img/icon-slack.png" alt="Slack">
-                            <h3>Slack</h3>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
 
-    <div w3-include-html="inc/footer.html"></div>
+    <div class="section section-accordion my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <ul class="nav nav-tabs nav-fill" id="accordionTab" role="tablist">
+              <li class="nav-item pb-0">
+                <a
+                  class="nav-link active"
+                  id="tab1-tab"
+                  data-toggle="tab"
+                  href="#tab1"
+                  role="tab"
+                  aria-controls="tab1"
+                  aria-selected="true"
+                  >Visual Studio Code</a
+                >
+              </li>
+              <li class="nav-item pb-0">
+                <a
+                  class="nav-link"
+                  id="tab2-tab"
+                  data-toggle="tab"
+                  href="#tab2"
+                  role="tab"
+                  aria-controls="tab2"
+                  aria-selected="false"
+                  >Visual Studio</a
+                >
+              </li>
+              <li class="nav-item pb-0">
+                <a
+                  class="nav-link"
+                  id="tab3-tab"
+                  data-toggle="tab"
+                  href="#tab3"
+                  role="tab"
+                  aria-controls="tab3"
+                  aria-selected="false"
+                  >Sublime Text</a
+                >
+              </li>
+              <li class="nav-item pb-0">
+                <a
+                  class="nav-link"
+                  id="tab4-tab"
+                  data-toggle="tab"
+                  href="#tab4"
+                  role="tab"
+                  aria-controls="tab4"
+                  aria-selected="false"
+                  >Atom</a
+                >
+              </li>
+              <li class="nav-item pb-0">
+                <a
+                  class="nav-link"
+                  id="tab5-tab"
+                  data-toggle="tab"
+                  href="#tab5"
+                  role="tab"
+                  aria-controls="tab5"
+                  aria-selected="false"
+                  >Hyper</a
+                >
+              </li>
+              <li class="nav-item pb-0">
+                <a
+                  class="nav-link"
+                  id="tab6-tab"
+                  data-toggle="tab"
+                  href="#tab6"
+                  role="tab"
+                  aria-controls="tab6"
+                  aria-selected="false"
+                  >iTerm2</a
+                >
+              </li>
+              <li class="nav-item pb-0">
+                <a
+                  class="nav-link"
+                  id="tab7-tab"
+                  data-toggle="tab"
+                  href="#tab7"
+                  role="tab"
+                  aria-controls="tab7"
+                  aria-selected="false"
+                  >Terminal</a
+                >
+              </li>
+              <li class="nav-item pb-0">
+                <a
+                  class="nav-link"
+                  id="tab8-tab"
+                  data-toggle="tab"
+                  href="#tab8"
+                  role="tab"
+                  aria-controls="tab8"
+                  aria-selected="false"
+                  >MinTTY</a
+                >
+              </li>
+              <li class="nav-item pb-0">
+                <a
+                  class="nav-link"
+                  id="tab9-tab"
+                  data-toggle="tab"
+                  href="#tab9"
+                  role="tab"
+                  aria-controls="tab9"
+                  aria-selected="false"
+                  >Slack</a
+                >
+              </li>
+            </ul>
+            <div class="tab-content" id="accordionTabContent">
+              <div
+                class="tab-pane fade show active"
+                id="tab1"
+                role="tabpanel"
+                aria-labelledby="tab1-tab"
+              >
+                <div class="card bg-transparent">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <img
+                          class="img-fluid"
+                          src="/img/screen-vscode.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="col-md-6">
+                        <div class="install">
+                          <div class="instructions">
+                            <h4>Install using Command Palette</h4>
+                            <ol>
+                              <li>
+                                Go to <code>View &gt; Command Palette</code> or
+                                press <code>Ctrl+Shift+P</code>
+                              </li>
+                              <li>Then enter <code>Install Extension</code></li>
+                              <li>Write <code>Newton</code></li>
+                              <li>Select it or press Enter to install</li>
+                            </ol>
+                            <h4>Select Theme</h4>
+                            <p>
+                              Run Visual Studio Code. The Newton Syntax Theme
+                              will be available from
+                              <code
+                                >File &gt; Preferences &gt; Color Theme</code
+                              >
+                              dropdown menu.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="tab2"
+                role="tabpanel"
+                aria-labelledby="tab2-tab"
+              >
+                <div class="card bg-transparent">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <img
+                          class="img-fluid"
+                          src="/img/screen-vs.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="col-md-6">
+                        <div class="install">
+                          <div class="instructions">
+                            <h4>Install via Studiostyl.es</h4>
+                            <code> https://studiostyl.es/schemes/newton </code>
 
-    <script>
-        w3.includeHTML();
-    </script>
+                            <h4>Activating theme</h4>
 
-</body>
+                            <ol>
+                              <li>Start Visual Studio</li>
+                              <li>
+                                Go to
+                                <code
+                                  >Tools -&gt; Import and Export Settings...
+                                  -&gt; Import selected environment
+                                  settings</code
+                                >
+                              </li>
+                              <li>
+                                [Choose whether you want to backup existing
+                                settings]
+                              </li>
+                              <li>
+                                Click <code>Browse</code> and select the
+                                .vssettings file
+                              </li>
+                              <li>Click <code>Finish</code></li>
+                            </ol>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="tab3"
+                role="tabpanel"
+                aria-labelledby="tab3-tab"
+              >
+                <div class="card bg-transparent">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <img
+                          class="img-fluid"
+                          src="/img/screen-sublime.png"
+                          alt=""
+                        />
+                        <br /><br />
+                        <img
+                          class="img-fluid"
+                          src="/img/screen-sublime-2.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="col-md-6">
+                        <div class="install">
+                          <!--
+                            <h4>Install using Package Control</h4>
+                            <p>If you are using
+                                <a href="http://wbond.net/sublime_packages/package_control">Package Control</a>, you can easily install Newton Theme via the
+                                <code>Package Control: Install Package</code> menu item. The Newton Theme package is listed as
+                                <code>Theme - Newton</code> in the packages list.</p>
+                          -->
 
+                          <h4>Install using Git</h4>
+                          <p>
+                            You can install the theme and keep up to date by
+                            cloning the repo directly into your
+                            <code>Packages</code> directory in the Sublime Text
+                            application settings area.
+                          </p>
+                          <p>
+                            You can locate your Sublime Text
+                            <code>Packages</code> directory by using the menu
+                            item
+                            <code>Preferences &gt; Browse Packages...</code>.
+                          </p>
+                          <p>
+                            While inside the <code>Packages</code> directory,
+                            clone the theme repository using the command below:
+                          </p>
+                          <code
+                            >$ git clone
+                            https://github.com/bertolinimarco/sublime-theme-newton
+                          </code>
+
+                          <h4>Install manually</h4>
+                          <ol>
+                            <li>
+                              <a
+                                class="github-button"
+                                href="https://github.com/bertolinimarco/sublime-theme-newton/archive/master.zip"
+                                data-icon="octicon-cloud-download"
+                                data-size="large"
+                                aria-label="Download newton-theme/sublime-theme-newton on GitHub"
+                                >Download</a
+                              >
+                            </li>
+                            <li>
+                              Unzip the files and rename the folder to
+                              <code>Newton Color Scheme</code>
+                            </li>
+                            <li>
+                              Find your <code>Packages</code> directory using
+                              the menu item
+                              <code>Preferences &gt; Browse Packages...</code>
+                            </li>
+                            <li>
+                              Copy the folder into your Sublime Text
+                              <code>Packages</code> directory
+                            </li>
+                          </ol>
+
+                          <h4>Activating theme</h4>
+                          <p>
+                            Go to
+                            <code>Preferences &gt; Color Scheme &gt; User</code>
+                            and select the <code>Newton Color Scheme</code>.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="tab4"
+                role="tabpanel"
+                aria-labelledby="tab4-tab"
+              >
+                <div class="card bg-transparent">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <img
+                          class="img-fluid"
+                          src="/img/screen-atom.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="col-md-6">
+                        <h4>Install using Atom</h4>
+                        <ol>
+                          <li>Go to <code>Atom -&gt; Preferences...</code></li>
+                          <li>Then select the <code>Install</code> tab</li>
+                          <li>
+                            Click the <code>Themes</code> button to the right of
+                            the search box
+                          </li>
+                          <li>
+                            Enter <code>newton-syntax</code> in the search box
+                          </li>
+                        </ol>
+
+                        <h4>Install using Git</h4>
+                        <p>
+                          Alternatively, if you are a git user, you can install
+                          the theme and keep up to date by cloning the repo
+                          directly into your
+                          <code>~/.atom/packages</code> directory.
+                        </p>
+                        <code
+                          >$ git clone
+                          https://github.com/bertolinimarco/newton-syntax</code
+                        >
+
+                        <h4>Install manually</h4>
+                        <ol>
+                          <li>
+                            <a
+                              class="github-button"
+                              href="https://github.com/bertolinimarco/newton-syntax/archive/master.zip"
+                              data-icon="octicon-cloud-download"
+                              data-size="large"
+                              aria-label="Download newton-theme/newton-syntax on GitHub"
+                              >Download</a
+                            >
+                          </li>
+                          <li>
+                            Move the <code>newton-syntax</code> folder to
+                            <code>~/.atom/packages</code>
+                          </li>
+                        </ol>
+
+                        <h4>Activating theme</h4>
+                        <p>
+                          Go to <code>Atom -&gt; Preferences...</code>, click in
+                          the <code>Themes</code> tab, and select
+                          <code>Newton</code> in the
+                          <code>Syntax Theme</code> dropdown.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="tab5"
+                role="tabpanel"
+                aria-labelledby="tab5-tab"
+              >
+                <div class="card bg-transparent">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <img
+                          class="img-fluid"
+                          src="/img/screen-hyper.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="col-md-6">
+                        <div class="install">
+                          <h4>
+                            Install using
+                            <a
+                              href="https://github.com/zeit/hpm"
+                              target="_blank"
+                              >hpm</a
+                            >
+                          </h4>
+                          <p>Install via <code>hpm</code> command line:</p>
+                          <code>$ hpm install hyper-theme-newton</code>
+                          <h4>Install using config file</h4>
+                          <p>
+                            Add <code>hyper-theme-newton</code> to the plugins
+                            list in your <code>~/.hyper.js</code> config file.
+                          </p>
+                          <code>plugins: [ "hyper-theme-newton" ]</code>
+                          <h4>Activating theme</h4>
+                          <ol>
+                            <li>Start Hyper</li>
+                            <li>Go to <code>View &gt; Full Reload</code></li>
+                          </ol>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="tab6"
+                role="tabpanel"
+                aria-labelledby="tab6-tab"
+              >
+                <div class="card bg-transparent">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <img
+                          class="img-fluid"
+                          src="/img/screen-iterm.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="col-md-6">
+                        <h4>Install using Git</h4>
+                        <p>
+                          If you are a git user, you can install the theme and
+                          keep up to date by cloning the repo:
+                        </p>
+                        <code
+                          >$ git clone
+                          https://github.com/bertolinimarco/iterm-theme-newton</code
+                        >
+                        <h4>Install manually</h4>
+                        <p>
+                          <a
+                            class="github-button"
+                            href="https://github.com/bertolinimarco/iterm-theme-newton/archive/master.zip"
+                            data-icon="octicon-cloud-download"
+                            data-size="large"
+                            aria-label="Download bertolinimarco/iterm-theme-newton on GitHub"
+                            >Download</a
+                          >
+                        </p>
+                        <h4>Activating theme</h4>
+                        <ol>
+                          <li>
+                            <code
+                              >iTerm2 &gt; Preferences &gt; Profiles &gt; Colors
+                              Tab</code
+                            >
+                          </li>
+                          <li>
+                            Open the <code>Color Presets...</code> drop-down in
+                            the bottom right corner
+                          </li>
+                          <li>Select <code>Import...</code> from the list</li>
+                          <li>
+                            Select the <code>Newton.itermcolors</code> file
+                          </li>
+                          <li>
+                            Select <code>Newton</code> from
+                            <code>Color Presets...</code>
+                          </li>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="tab7"
+                role="tabpanel"
+                aria-labelledby="tab7-tab"
+              >
+                <div class="card bg-transparent">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <img
+                          class="img-fluid"
+                          src="/img/screen-terminal.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="col-md-6">
+                        <h4>Install using Git</h4>
+                        <p>
+                          If you are a git user, you can install the theme and
+                          keep up to date by cloning the repo:
+                        </p>
+                        <code
+                          >$ git clone
+                          https://github.com/bertolinimarco/terminal-theme-newton</code
+                        >
+                        <h4>Install manually</h4>
+                        <p>
+                          <a
+                            class="github-button"
+                            href="https://github.com/bertolinimarco/terminal-theme-newton/archive/master.zip"
+                            data-icon="octicon-cloud-download"
+                            data-size="large"
+                            aria-label="Download bertolinimarco/terminal-theme-newton on GitHub"
+                            >Download</a
+                          >
+                        </p>
+                        <h4>Activating theme</h4>
+                        <ol>
+                          <li><code>Terminal &gt; Settings</code></li>
+                          <li>Click <code>⚙️</code></li>
+                          <li>Click <code>Import...</code></li>
+                          <li>Select the <code>Newton.terminal</code> file</li>
+                          <li>Click <code>Default</code></li>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="tab8"
+                role="tabpanel"
+                aria-labelledby="tab8-tab"
+              >
+                <div class="card bg-transparent">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <img
+                          class="img-fluid"
+                          src="/img/screen-mintty.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="col-md-6">
+                        <h4>Install using Git</h4>
+                        <p>
+                          If you are a git user, you can install the theme and
+                          keep up to date by cloning the repo directly into your
+                          <code>~/.</code> directory.
+                        </p>
+                        <code
+                          >$ git clone
+                          https://github.com/bertolinimarco/mintty-theme-newton</code
+                        >
+                        <h4>Install manually</h4>
+                        <ol>
+                          <li>
+                            <a
+                              class="github-button"
+                              href="https://github.com/bertolinimarco/mintty-theme-newton/archive/master.zip"
+                              data-icon="octicon-cloud-download"
+                              data-size="large"
+                              aria-label="Download bertolinimarco/mintty-theme-newton on GitHub"
+                              >Download</a
+                            >
+                          </li>
+                          <li>
+                            Rename to <code>.minttyrc</code> and Move the file
+                            to <code>~/.</code>
+                          </li>
+                        </ol>
+                        <h4>Activating theme</h4>
+                        <p>
+                          If you're already running a color scheme under Mintty,
+                          be sure to clear the relevant lines in your
+                          <code>~/.minttyrc</code>.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="tab9"
+                role="tabpanel"
+                aria-labelledby="tab9-tab"
+              >
+                <div class="card bg-transparent">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <img
+                          class="img-fluid"
+                          src="/img/screen-slack.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="col-md-6">
+                        <div class="install">
+                          <h4>Install manually</h4>
+                          <ol>
+                            <li>
+                              Go to
+                              <code
+                                >User Menu &gt; Preferences &gt; Sidebar &gt;
+                                Theme</code
+                              >
+                            </li>
+                            <li>
+                              In the bottom of the window, look for the textbox
+                              called
+                              <code
+                                >"Copy and paste these values to share your
+                                custom theme with others"</code
+                              >
+                            </li>
+                            <li>Copy and paste the values:</li>
+                          </ol>
+                          <code
+                            >#1a1a1a,#666666,#ebbd5b,#1a1a1a,#666666,#d3d0c8,#9c9,#f2777a</code
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="foot text-center">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="palette">
+            <ul>
+              <li><div class="box bg1"></div></li>
+              <li><div class="box bg2"></div></li>
+              <li><div class="box bg3"></div></li>
+              <li><div class="box bg4"></div></li>
+              <li><div class="box bg5"></div></li>
+              <li><div class="box bg6"></div></li>
+              <li><div class="box bg7"></div></li>
+              <li><div class="box bg8"></div></li>
+              <li><div class="box bg9"></div></li>
+              <li><div class="box bg10"></div></li>
+              <li><div class="box bg11"></div></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col copy">
+            made by
+            <a href="https://github.com/bertolinimarco" target="_blank"
+              >bertolinimarco</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
