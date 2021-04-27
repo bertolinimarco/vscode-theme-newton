@@ -1,6 +1,6 @@
 # Newton for VS Code
 
-## Checkout the v2 [HERE](https://github.com/bertolinimarco/vscode-theme-newton-next)
+## THIS VERSION IS NO LONGER MAINTAINED, Checkout the NEWTON NEXT [HERE](https://github.com/bertolinimarco/vscode-theme-newton-next)
 
 [![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/d/bertolinimarco.theme-newton.svg)]()
 
